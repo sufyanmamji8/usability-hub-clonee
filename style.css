@@ -1,0 +1,583 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  height: 10vh;
+  width: 100vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(245, 62, 215);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .header h4 {
+  text-align: center;
+} */
+
+#navbar {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid rgb(247, 226, 226);
+}
+
+#navbar img {
+  width: 14vw;
+  height: 10vh;
+  object-fit: contain;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+#navbar ul li a:hover {
+  color: rgb(118, 232, 236);
+  cursor: pointer;
+}
+
+#buttons .btn1 {
+  color: black;
+  font-weight: 600;
+  padding: 15px;
+  margin-top: 1vh;
+  border-radius: 5px;
+  width: 7vw;
+  height: 8vh;
+}
+
+#buttons .btn1:hover {
+  color: rgb(44, 200, 206);
+  border: 2px solid rgb(42, 215, 221);
+  transition: 0.5s;
+}
+
+#buttons .btn2:hover {
+  background-color: rgb(0, 174, 255);
+  transition: 0.5s;
+}
+
+#buttons .btn2 {
+  height: 8vh;
+  width: 7vw;
+  font-weight: 600;
+  padding: 15px;
+  margin-top: 1vh;
+  border-radius: 5px;
+  background-color: rgb(118, 232, 236);
+  color: white;
+  border: 2px solid rgb(118, 232, 236);
+}
+
+/* !!!!!!!!!!navbar ends here!!!!!!!!!!!!  */
+
+#main1 {
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  height: 80vh;
+}
+
+#main1 .text {
+  height: 80vh;
+  width: 47vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5vw;
+}
+
+#main1 .image {
+  height: 80vh;
+  width: 47vw;
+  margin-left: 5vw;
+}
+
+#main1 .image img {
+  width: 40vw;
+  height: 80vh;
+  object-fit: contain;
+}
+
+#main1 .text button {
+  width: 10vw;
+  font-weight: 600;
+  padding: 15px;
+  margin-top: 4vh;
+  border-radius: 5px;
+  background-color: rgb(83, 225, 230);
+  color: white;
+  border: 2px solid rgb(118, 232, 236);
+}
+
+#main1 .text button:hover {
+  background-color: rgb(0, 174, 255);
+  transition: 0.5s;
+}
+
+#main1 .text p {
+  margin-top: 4vh;
+}
+
+/* !!!!!!!!    main1 ends here  !!!!!!!!!!!!!!! */
+
+#companies {
+  width: 100vw;
+  height: 35vh;
+}
+
+#companies .text h3 {
+  text-align: center;
+  margin-bottom: 7vh;
+}
+
+#companies .images {
+  display: flex;
+  justify-content: space-around;
+}
+
+#companies .images img {
+  height: 10vh;
+  width: 10vw;
+  object-fit: contain;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!companies section ends here !!!!!!!!!!!!!!!!!!!!1 */
+
+#main2 {
+  width: 100vw;
+  height: 100vh;
+  background: url(https://raw.githubusercontent.com/Shahab-Uddin-Ghori/Usibility-Hub/56d45aa2c657be360c453da99a3b287913eab2df/images/asset%2029.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#main2 h2 {
+  text-align: center;
+}
+
+#main2 .head4 {
+  text-align: center;
+  border: 2px solid rgb(0, 174, 255);
+  border-radius: 10px;
+  width: 15vw;
+  margin: auto;
+  margin-top: 2vh;
+  padding: 10px;
+  transition: 0.8s;
+}
+
+#main2 .head4:hover {
+  background-color: rgb(114, 188, 223);
+}
+
+#main2 .cards img {
+  height: 15vh;
+  width: 16vw;
+  margin: auto;
+}
+
+#main2 .cards {
+  width: 25vw;
+  height: 40vh;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+#main2 .cards h4 {
+  border: 2px solid rgb(0, 174, 255);
+  border-radius: 10px;
+  width: 15vw;
+  margin: auto;
+  margin-top: 2vh;
+  padding: 10px;
+  transition: 0.8s;
+}
+
+#main2 .cards h4:hover {
+  background-color: rgb(114, 188, 223);
+}
+
+#cardsec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardsec1 {
+  display: flex;
+}
+
+.cardsec2 {
+  display: flex;
+}
+
+/* !!!!!!!!!!!!!main 2 ends here!!!!!!!!!!!!!!!!!!!! */
+
+#main3 {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  height: 80vh;
+}
+
+#main3 .image {
+  height: 80vh;
+  width: 47vw;
+  margin-left: 5vw;
+}
+
+#main3 .image img {
+  width: 35vw;
+  height: 80vh;
+}
+
+#main3 .text {
+  height: 80vh;
+  width: 47vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5vw;
+}
+
+#main3 .text h2 {
+  font-size: 2rem;
+}
+
+/* !!!!!!!!!!!!main3 ends here!!!!!!!!!!  */
+
+#main4 {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  height: 80vh;
+}
+
+#main4 .text {
+  height: 80vh;
+  width: 47vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5vw;
+}
+
+#main4 .image {
+  height: 80vh;
+  width: 47vw;
+  margin-left: 5vw;
+}
+
+#main4 .image img {
+  width: 35vw;
+  height: 80vh;
+}
+
+#main4 .text h2 {
+  font-size: 2rem;
+}
+
+#main4 .text .blue {
+  font-size: 2rem;
+  color: rgb(55, 0, 255);
+  font-weight: 900;
+}
+
+/* !!!!!!!!!!!main4 ends here!!!!!!!!!!!!!!! */
+
+#main5 {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  height: 80vh;
+}
+
+#main5 .image {
+  height: 80vh;
+  width: 47vw;
+  margin-left: 5vw;
+}
+
+#main5 .text {
+  height: 80vh;
+  width: 47vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5vw;
+}
+
+#main5 .image img {
+  width: 40vw;
+  height: 80vh;
+}
+
+#main5 .text .red {
+  width: 10vw;
+  height: 4vw;
+}
+
+/* !!!!!!!!!!!!main 5 ends heree!!!!!!!!!!!!!! */
+
+#main6 {
+  margin-top: 20vh;
+  height: 100vh;
+  width: 100vw;
+}
+
+#main6 h1 {
+  text-align: center;
+}
+
+#main6 h4 {
+  text-align: center;
+  border: 2px solid rgb(0, 174, 255);
+  border-radius: 10px;
+  width: 15vw;
+  margin: auto;
+  margin-top: 2vh;
+  padding: 10px;
+  transition: 0.8s;
+}
+
+#main6 h4:hover {
+  background-color: rgb(114, 188, 223);
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8vh;
+}
+
+#main6 #cards .card1 {
+  height: 55vh;
+  width: 30vw;
+  background: url(https://shahab-uddin-ghori.github.io/Usibility-Hub/images/card%201.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+}
+
+#main6 #cards .card2 {
+  height: 55vh;
+  width: 30vw;
+  background: url(https://shahab-uddin-ghori.github.io/Usibility-Hub/images/card%202.jfif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+}
+
+#main6 #cards .card3 {
+  height: 55vh;
+  width: 30vw;
+  background: url(https://shahab-uddin-ghori.github.io/Usibility-Hub/images/card%203.jfif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+}
+
+#main6 #cards .card4 {
+  height: 45vh;
+  width: 30vw;
+  background: url(https://shahab-uddin-ghori.github.io/Usibility-Hub/images/card%204.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+}
+
+/* !!!!!!main 6 ends here!!!!!!!!!!!!! */
+
+#main7 {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 90vh;
+  background-color: rgb(6, 5, 56);
+}
+
+#main7 .text {
+  height: 80vh;
+  width: 47vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5vw;
+  color: white;
+}
+
+#main7 .image {
+  height: 80vh;
+  width: 47vw;
+  margin-left: 5vw;
+}
+
+#main7 .image img {
+  width: 35vw;
+  height: 80vh;
+}
+
+#main7 .text #listitems {
+  display: flex;
+  justify-content: space-around;
+}
+
+#main7 .text h3 {
+  width: 10vw;
+  background-color: rgb(114, 188, 223);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+}
+
+#main7 .text h3:hover {
+  background-color: rgb(12, 79, 110);
+}
+
+/* !!!!!!!!!!!!!!main7 ends here!!!!!!!!!!!!!!! */
+
+#main8{
+  margin-top: 10vh;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main8 h3{
+  width: 10vw;
+  background-color:rgb(12, 79, 110) ;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+/* !!!!!!!!!!main8 ends here!!!!!!!!!!!!!!!! */
+
+#footer{
+  width: 100vw;
+  height: 70vh;
+  background-color: rgb(187, 202, 209);
+  margin-top: 10vh;
+  display: flex;
+}
+
+#footer .logo{
+  height: 70vh;
+  width: 30vw;
+  margin-top: 10vh;
+}
+
+#footer .logo img{
+ width: 15vw;
+ height: 10vh;
+ margin: auto;
+}
+
+#footer .sec1{
+  margin-top: 10vh;
+  height: 70vh;
+  width: 20vw;
+}
+
+#footer .sec1 h3{
+  margin: 10px;
+}
+
+#footer .sec1 li{
+  margin: 10px;
+  list-style: none;
+}
+
+#footer .sec2{
+  margin-top: 10vh;
+  height: 70vh;
+  width: 20vw;
+}
+
+#footer .sec3{
+  margin-top: 10vh;
+  height: 70vh;
+  width: 20vw;
+}
+
+#footer .sec2 li{
+  margin: 10px;
+  list-style: none;
+}
+
+#footer .sec3 li{
+  margin: 10px;
+  list-style: none;
+}
+
+/* !!!!!!!!!!!!foooter end here!!!!!!!!!!!!  */
+
+#footerend{
+  width: 100vw;
+  height: 10vh;
+  background-color:rgb(12, 79, 110) ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footerend .text{
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footerend .images{
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerend .credit{
+  width: 25vw;
+}
