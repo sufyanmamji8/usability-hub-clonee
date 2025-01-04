@@ -1,6 +1,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&display=swap");
-
+html {
+  scroll-behavior: smooth; 
+}
 * {
   margin: 0;
   padding: 0;
@@ -44,9 +46,25 @@ body {
   display: flex;
 }
 
+#navbar ul a{
+  text-decoration: none;
+  animation: all ease 2s;
+  scroll-behavior: smooth;
+}
+
+#navbar a li{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  animation: all ease 2s;
+  scroll-behavior: smooth;
+}
+
 #navbar ul li {
   list-style: none;
   margin: 20px;
+  animation: all ease 2s;
+  scroll-behavior: smooth;
 }
 
 #navbar ul li a {
