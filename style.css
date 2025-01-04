@@ -1,7 +1,7 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&display=swap");
+
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 * {
   margin: 0;
@@ -12,7 +12,6 @@ html {
 body {
   overflow-x: hidden;
 }
-
 
 .header {
   height: 10vh;
@@ -46,13 +45,13 @@ body {
   display: flex;
 }
 
-#navbar ul a{
+#navbar ul a {
   text-decoration: none;
   animation: all ease 2s;
   scroll-behavior: smooth;
 }
 
-#navbar a li{
+#navbar a li {
   text-decoration: none;
   color: black;
   font-weight: 700;
@@ -497,7 +496,7 @@ body {
 
 /* !!!!!!!!!!!!!!main7 ends here!!!!!!!!!!!!!!! */
 
-#main8{
+#main8 {
   margin-top: 10vh;
   width: 100vw;
   height: 30vh;
@@ -507,17 +506,16 @@ body {
   justify-content: space-between;
 }
 
-#main8 h3{
+#main8 h3 {
   width: 10vw;
-  background-color:rgb(12, 79, 110) ;
+  background-color: rgb(12, 79, 110);
   border-radius: 10px;
   text-align: center;
 }
 
-
 /* !!!!!!!!!!main8 ends here!!!!!!!!!!!!!!!! */
 
-#footer{
+#footer {
   width: 100vw;
   height: 70vh;
   background-color: rgb(187, 202, 209);
@@ -525,79 +523,79 @@ body {
   display: flex;
 }
 
-#footer .logo{
+#footer .logo {
   height: 70vh;
   width: 30vw;
   margin-top: 10vh;
 }
 
-#footer .logo img{
- width: 15vw;
- height: 10vh;
- margin: auto;
+#footer .logo img {
+  width: 15vw;
+  height: 10vh;
+  margin: auto;
 }
 
-#footer .sec1{
+#footer .sec1 {
   margin-top: 10vh;
   height: 70vh;
   width: 20vw;
 }
 
-#footer .sec1 h3{
+#footer .sec1 h3 {
   margin: 10px;
 }
 
-#footer .sec1 li{
-  margin: 10px;
-  list-style: none;
-}
-
-#footer .sec2{
-  margin-top: 10vh;
-  height: 70vh;
-  width: 20vw;
-}
-
-#footer .sec3{
-  margin-top: 10vh;
-  height: 70vh;
-  width: 20vw;
-}
-
-#footer .sec2 li{
+#footer .sec1 li {
   margin: 10px;
   list-style: none;
 }
 
-#footer .sec3 li{
+#footer .sec2 {
+  margin-top: 10vh;
+  height: 70vh;
+  width: 20vw;
+}
+
+#footer .sec3 {
+  margin-top: 10vh;
+  height: 70vh;
+  width: 20vw;
+}
+
+#footer .sec2 li {
+  margin: 10px;
+  list-style: none;
+}
+
+#footer .sec3 li {
   margin: 10px;
   list-style: none;
 }
 
 /* !!!!!!!!!!!!foooter end here!!!!!!!!!!!!  */
 
-#footerend{
+#footerend {
   width: 100vw;
   height: 10vh;
-  background-color:rgb(12, 79, 110) ;
+  background-color: rgb(12, 79, 110);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#footerend .text{
+#footerend .text {
   width: 30vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#footerend .images{
+#footerend .images {
   width: 20vw;
   display: flex;
   justify-content: space-between;
 }
 
-#footerend .credit{
+#footerend .credit {
   width: 25vw;
 }
