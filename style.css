@@ -397,19 +397,20 @@ body {
 }
 
 #main6 #cards .card1 {
-  height: 55vh;
+  height: 40vh;
   width: 30vw;
-  background: url(https://shahab-uddin-ghori.github.io/Usibility-Hub/images/card%201.png);
+  background: url(https://tse4.mm.bing.net/th?id=OIP.3rJxCIbX0oP0IJURW2ksegHaE8&pid=Api&P=0&h=220);
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  color: white;
+  color: black;
+  margin-left: 50px;
 }
 
 #main6 #cards .card2 {
-  height: 55vh;
+  height: 40vh;
   width: 30vw;
   background: url(https://shahab-uddin-ghori.github.io/Usibility-Hub/images/card%202.jfif);
   background-size: contain;
@@ -417,31 +418,35 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #main6 #cards .card3 {
-  height: 55vh;
-  width: 30vw;
-  background: url(https://shahab-uddin-ghori.github.io/Usibility-Hub/images/card%203.jfif);
+  height: 38vh;
+  width: 40vw;
+  background: url(https://tse4.mm.bing.net/th?id=OIP.fat8uh9pFRu6-kgiQU-4ngHaE7&pid=Api&P=0&h=220);
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  color: white;
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
 }
 
+
+
 #main6 #cards .card4 {
-  height: 45vh;
+  height: 38vh;
   width: 30vw;
-  background: url(https://shahab-uddin-ghori.github.io/Usibility-Hub/images/card%204.jfif);
+  background: url(https://tse4.mm.bing.net/th?id=OIP.1HgjFoApwDRZmxBQVaOEIQHaD4&pid=Api&P=0&h=220);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  color: white;
+  color: rgb(0, 0, 0);
+  margin-right: 90px;
 }
 
 /* !!!!!!main 6 ends here!!!!!!!!!!!!! */
@@ -511,6 +516,7 @@ body {
   background-color: rgb(12, 79, 110);
   border-radius: 10px;
   text-align: center;
+  color: white;
 }
 
 /* !!!!!!!!!!main8 ends here!!!!!!!!!!!!!!!! */
@@ -581,6 +587,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: white;
 }
 
 #footerend .text {
